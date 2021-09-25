@@ -8,6 +8,9 @@ h4{
   font-size:16pt;
   color:black;
 }
+h3{
+  font-size:18pt;
+}
 img{
   width:50%;
   height:50%
@@ -29,5 +32,6 @@ p #major:hover{
 }
 h1{
   margin-left:25%;
+  font-size:32pt;
 }
 /*# sourceMappingURL=style.css.map */
