@@ -24,4 +24,7 @@ p{
 p #major:hover{
   color:gray !important;
 }
+h4 #project-links:hover{
+  color:gray;
+}
 /*# sourceMappingURL=style.css.map */
