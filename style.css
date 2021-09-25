@@ -11,11 +11,11 @@ h4{
 h3{
   font-size:18pt;
 }
-#wide-img{
+.wide-img{
   width:60%;
   height:60%;
 }
-#square-img{
+.square-img{
   width:40%;
   height:40%;
 }
