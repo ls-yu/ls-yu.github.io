@@ -4,17 +4,15 @@
         <script>
             function toggleMajorText() {
                 var text = document.getElementById("major-description");
+                var major = document.getElementById("major");
                 if (text.style.display === "none") {
                     text.style.display = "block";
+                    major.style.color = "black";
                 } else {
                     text.style.display = "none";
+                    major.style.color = "#595959";
                 }
-                var major = document.getElementById("major");
-                if (text.color === "gray") {
-                    text.color = "black";
-                } else {
-                    text.color = "gray";
-                }
+                
             }
         </script>
         <title>Lex Yu's Page</title>
@@ -26,8 +24,9 @@
         <h1>Hi, I'm Lex!</h1>
         <p>
             <span>My name is Lex Yu and I'm an undergraduate at the University of Southern California studying</span> 
-            <span id="major" onclick="toggleMajorText()" style="color:gray">Computer Science (Games)</span>
-            <span id="major-descripton" display="none">, an interdisciplinary program that includes the curriculum of the standard CS major, plus game design and game programming classes.</span>
+            <span id="major" onclick="toggleMajorText()" style="color:#595959">Computer Science (Games)</span>
+            <span id="major-descripton">, an interdisciplinary program that includes the curriculum of the standard CS major, plus game design and game programming classes.</span>
+            <br>
             <span>Below are some projects I've worked on! (For my employment/everything resume, please email me at lsyu@usc.edu.)</span>
         </p>
 
