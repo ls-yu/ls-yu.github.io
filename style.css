@@ -9,7 +9,7 @@ body {
 #major{
   color:gray;
 }
-hoover #major{
+#major:hoover{
   color:rgb(78, 78, 78);
 }
 /*# sourceMappingURL=style.css.map */
