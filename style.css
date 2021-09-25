@@ -28,4 +28,7 @@ p #major:hover{
 h4 #project-links:hover{
   color:gray;
 }
+h1{
+  margin-left:25%;
+}
 /*# sourceMappingURL=style.css.map */
