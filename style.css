@@ -1,13 +1,15 @@
 body {
   font-family: Garamond, sans-serif;
   margin: 30px;
-  width: 70%;
 }
 img{
   margin:20px;
+  width:50%;
+  height:50%
 }
 p{
   margin:20px;
+  width:70%;
 }
 #major-description{
   display:none;
