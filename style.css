@@ -15,12 +15,12 @@ p{
   width:70%;
 }
 #major-description{
-  display:inline;
+  display:none;
 }
 #major{
   color:gray;
 }
-span #major:hoover .top{
-  color:rgb(78, 78, 78);
+#major:hoover{
+  color:rgb(78, 78, 78) !important;
 }
 /*# sourceMappingURL=style.css.map */
