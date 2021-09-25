@@ -2,8 +2,11 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 20px;
 }
+#major-description{
+  
+  display:none;
+}
 #major-description:hoover{
   color:gray;
-  display:none;
 }
 /*# sourceMappingURL=style.css.map */
