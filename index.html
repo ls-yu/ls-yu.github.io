@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Advanced Search</title>
+        <script>
+            function toggleText() {
+                var text = document.getElementById("major-description");
+                if (text.style.display === "none") {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
+        </script>
+        <title>Lex Yu's Page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>This page is still being made</h1>
+        <h1>Hi, I'm Lex!</h1>
+        <p>
+            <span>My name is Lex Yu and I'm an undergraduate at the University of Southern California studying</span> 
+            <span id="major" onclick="toggleText()">Computer Science (Games)</span>
+            <span id="major-descripton">, an interdisciplinary program that includes the curriculum of the standard CS major, plus game design and game programming classes.</span>
+            <span>Below are some projects I've worked on! (For my employment/everything resume, please email me at lsyu@usc.edu.)</span>
+        </p>
+        
         <iframe src="https://itch.io/embed/1002460" width="552" height="167" frameborder="0"><a href="https://lsyu.itch.io/color-combine">Color Combine by lsyu</a></iframe>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     </body>
