@@ -2,6 +2,9 @@ body {
   font-family: Garamond, sans-serif;
   margin: 30px;
 }
+h4{
+  color:black;
+}
 img{
   margin:20px;
   width:50%;
