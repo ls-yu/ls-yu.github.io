@@ -17,8 +17,8 @@ p{
 #major-description{
   display:none;
 }
-#major{
-  color:gray;
+p #major{
+  color:black;
 }
 #major:hoover{
   color:rgb(78, 78, 78) !important;
