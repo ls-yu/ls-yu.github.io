@@ -6,7 +6,10 @@ body {
   
   display:none;
 }
-#major-description:hoover{
+#major{
   color:gray;
+}
+#major:hoover{
+  color:rgb(173, 173, 173);
 }
 /*# sourceMappingURL=style.css.map */
