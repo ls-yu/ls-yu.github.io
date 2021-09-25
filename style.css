@@ -4,7 +4,7 @@ body {
   left:20%;
 }
 h4{
-  font-size:14;
+  font-size:14pt;
   color:black;
 }
 img{
@@ -22,7 +22,7 @@ p{
 #major{
   color:gray;
 }
-#major:hoover{
+span #major:hoover{
   color:rgb(78, 78, 78);
 }
 /*# sourceMappingURL=style.css.map */
