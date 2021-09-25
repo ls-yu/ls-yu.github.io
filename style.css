@@ -2,12 +2,10 @@ body {
   font-family: Garamond, sans-serif;
   margin-top:5%;
   margin-left:25%;
-  margin-right:25%
-  padding-bottom:5%;
-  text-align: justify;
+  text-align:justify;
 }
 h4{
-  font-size:14pt;
+  font-size:16pt;
   color:black;
 }
 img{
@@ -26,7 +24,7 @@ p{
 p #major:hover{
   color:gray !important;
 }
-h4 #project-links:hover{
+#project-links:hover{
   color:gray;
 }
 h1{
