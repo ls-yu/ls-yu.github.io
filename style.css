@@ -17,10 +17,10 @@ p{
 #major-description{
   display:none;
 }
-p #major{
+#major{
   color:black;
 }
-#major:hoover{
+p #major:hover{
   color:gray !important;
 }
 /*# sourceMappingURL=style.css.map */
