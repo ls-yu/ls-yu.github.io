@@ -2,6 +2,9 @@ body {
   font-family: Garamond, sans-serif;
   margin: 30px;
 }
+img{
+  margin:20px;
+}
 p{
   margin:20px;
 }
