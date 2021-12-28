@@ -6,8 +6,10 @@
                 var text = document.getElementById("project-tab");
                 if (text.style.display == "none") {
                     text.style.display = "inline";
+                    text.style.backgroundColor = "#5c6370";
                 } else {
                     text.style.display = "none";
+                    text.style.backgroundColor = "#1d1d1d";
                 }
                 
             }
@@ -26,7 +28,8 @@
             <span id="major-description"> an interdisciplinary program that includes the curriculum of the standard CS major, plus game design and game programming classes.</span>
             <br>
             <br>
-            <span class="menu-links" onclick="toggleProjects()">Projects</span>
+            <br>
+            <h3 class="menu-links" onclick="toggleProjects()">Projects</h3>
         </p>
         
         <span id="project-tab">

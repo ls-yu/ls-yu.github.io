@@ -3,7 +3,7 @@ body {
   margin-top:5%;
   margin-left:25%;
   text-align:justify;
-  background-color:rgb(27, 27, 27);
+  background-color:#1d1d1d;
 }
 h4{
   font-size:14pt;
@@ -47,7 +47,7 @@ a, a:visited{
   color:#98c379;
 }
 h1{
-  text-align: center;
+  margin-left:25%;
   font-size:32pt;
   color:#61afef;
 }
@@ -60,4 +60,10 @@ h1{
 #project-tab{
   display:none;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    text-align:left;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
