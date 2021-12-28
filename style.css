@@ -1,3 +1,5 @@
+
+
 body {
   font-family:Consolas, monaco, monospace;
   margin-top:5%;
@@ -43,7 +45,7 @@ a:hover{
 a, a:visited{
   color:#61afef;
 }
-.lowercase-keywords{
+.lowercase-keyword{
   color:#98c379;
 }
 h1{
@@ -60,10 +62,12 @@ h1{
 #project-tab{
   display:none;
 }
-@media only screen and (max-width: 600px) {
-  body {
-    text-align:left;
-  }
-}
+
 
 /*# sourceMappingURL=style.css.map */
+@media (max-width: 600px) {
+  body {
+    text-align:left;
+    margin-left:5%;
+  }
+}
