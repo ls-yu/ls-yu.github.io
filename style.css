@@ -37,10 +37,10 @@ p{
 p #major:hover{
   color:white !important;
 }
-.project-links:hover{
+a:hover{
   color:white;
 }
-.project-links, .project-links:visited{
+a, a:visited{
   color:#61afef;
 }
 .lowercase-keywords{
