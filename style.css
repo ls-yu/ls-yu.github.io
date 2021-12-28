@@ -11,6 +11,7 @@ h4{
 }
 h3{
   font-size:18pt;
+  color:#61afef;
 }
 .wide-img{
   width:60%;
@@ -36,12 +37,19 @@ p{
 p #major:hover{
   color:white !important;
 }
-#project-links:hover{
+.project-links:hover{
   color:white;
+}
+.project-links, .project-links:visited{
+  color:#61afef;
+}
+.lowercase-keywords{
+  color:#98c379;
 }
 h1{
   margin-left:25%;
   font-size:32pt;
+  color:#61afef;
 }
 
 /*# sourceMappingURL=style.css.map */
