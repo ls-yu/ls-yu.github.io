@@ -2,9 +2,8 @@
 <html lang="en">
     <head>
         <script>
-            function toggleMajorText() {
-                var text = document.getElementById("major-description");
-                var major = document.getElementById("major");
+            function toggleProjects() {
+                var text = document.getElementById("project-tab");
                 if (text.style.display == "none") {
                     text.style.display = "inline";
                 } else {
@@ -23,10 +22,11 @@
 
         <p>
             <span>My name is <span class="keyword">Lex Yu</span> and I'm an undergraduate at the <span class="keyword">University of Southern California</span> studying</span> 
-            <span id="major" class="keyword" onclick="toggleMajorText()">Computer Science (Games)</span>
+            <span id="major" class="keyword">Computer Science (Games)</span>
             <span id="major-description"> an interdisciplinary program that includes the curriculum of the standard CS major, plus game design and game programming classes.</span>
             <br>
             <br>
+            <span class="menu-links" onclick="toggleProjects()">Projects</span>
         </p>
         
         <span id="project-tab">

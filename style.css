@@ -28,9 +28,6 @@ p{
 .keyword{
   color:#c678dd;
 }
-#major-description{
-  display:none;
-}
 #major{
   font-weight:bold;
 }
@@ -47,9 +44,14 @@ a, a:visited{
   color:#98c379;
 }
 h1{
-  margin-left:25%;
+  text-align: center;
   font-size:32pt;
   color:#61afef;
 }
-
+.menu-links{
+  color:#61afef;
+}
+.menu-links:hover{
+  color:white;
+}
 /*# sourceMappingURL=style.css.map */
