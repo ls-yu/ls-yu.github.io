@@ -3,10 +3,11 @@ body {
   margin-top:5%;
   margin-left:25%;
   text-align:justify;
+  background-color:rgb(27, 27, 27);
 }
 h4{
   font-size:14pt;
-  color:black;
+  color:#abb2bf;
 }
 h3{
   font-size:18pt;
@@ -21,22 +22,26 @@ h3{
 }
 p{
   width:70%;
+  color:#abb2bf;
+}
+.keyword{
+  color:#c678dd;
 }
 #major-description{
   display:none;
 }
 #major{
-  color:black;
   font-weight:bold;
 }
 p #major:hover{
-  color:gray !important;
+  color:white !important;
 }
 #project-links:hover{
-  color:gray;
+  color:white;
 }
 h1{
   margin-left:25%;
   font-size:32pt;
 }
+
 /*# sourceMappingURL=style.css.map */

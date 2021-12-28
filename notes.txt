@@ -1,0 +1,12 @@
+atom/one/dark/normal = ('#abb2bf', False, False)
+atom/one/dark/keyword = ('#c678dd', False, False)
+atom/one/dark/builtin = ('#56b6c2', False, False)
+atom/one/dark/definition = ('#61afef', False, False)
+atom/one/dark/comment = ('#5c6370', False, True)
+atom/one/dark/string = ('#98c379', False, False)
+atom/one/dark/number = ('#d19a66', False, False)
+atom/one/dark/instance = ('#e5c07b', False, True)
+
+
+normal: abb2bf light grayish
+keywords: c678dd purple
