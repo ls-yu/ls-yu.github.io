@@ -37,6 +37,9 @@ p #major:hover{
 a:hover{
   color:white;
 }
+.project-links:hover{
+  color:white;
+}
 a, a:visited{
   color:#61afef;
 }
@@ -53,5 +56,8 @@ h1{
 }
 .menu-links:hover{
   color:white;
+}
+#project-tab{
+  display:none;
 }
 /*# sourceMappingURL=style.css.map */
