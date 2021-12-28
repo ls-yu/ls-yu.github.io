@@ -1,5 +1,5 @@
 body {
-  font-family: Garamond, sans-serif;
+  font-family:Consolas, monaco, monospace;
   margin-top:5%;
   margin-left:25%;
   text-align:justify;
@@ -27,6 +27,7 @@ p{
 }
 #major{
   color:black;
+  font-weight:bold;
 }
 p #major:hover{
   color:gray !important;
