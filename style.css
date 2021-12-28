@@ -30,12 +30,6 @@ p{
 .keyword{
   color:#c678dd;
 }
-#major{
-  font-weight:bold;
-}
-p #major:hover{
-  color:white !important;
-}
 a:hover{
   color:white;
 }
