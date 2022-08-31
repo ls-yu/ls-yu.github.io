@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+
+        <script>
+            function toggleProjects() {
+                var text = document.getElementById("project-tab");
+                if (text.style.display == "none") {
+                    text.style.display = "inline";
+                    text.style.backgroundColor = "#5c6370";
+                } else {
+                    text.style.display = "none";
+                    text.style.backgroundColor = "#1d1d1d";
+                }
+                
+            }
+        </script>
+        <title>Lex Yu's Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Hi, I'm Lex!</h1>
+
+        <p>
+            <span>I'm an undergraduate at the <span class="keyword">University of Southern California</span> studying</span> 
+            <span id="major" class="keyword">Computer Science (Games)</span>
+            <span id="major-description">, an interdisciplinary program that includes the curriculum of the standard CS major, plus game design and game programming classes.</span>
+            <br>
+            <br>
+            <br>
+            <h3><span class="menu-links" onclick="toggleProjects()">[ Projects ] </span></h3>
+        </p>
+        
+        <span id="project-tab">
+        <h4 class="project-links"><a href="https://store.steampowered.com/app/1637610/Time_Tails/">Time Tails</a></h4>
+        <p>
+            <img src="assets/img/timetails.jpg" alt="Time tails promotional image" class="wide-img">
+            <br>
+            <span>I worked on <span class="keyword">Time Tails</span> during my internship at <span class="keyword">Snowbright Studio</span>! Time Tails is a kids 2D point and click adventure funded by the US Dept. of Education. I translated wireframes into Unity scenes, and programmed three of the levels. I also programmed the menus and conclusion sequence. (Made in <span class="lowercase-keyword">Unity/C#</span>)</span>
+        </p>
+
+        <h4 class="project-links"><a href="https://lynnfactor.itch.io/ourfirstkiss">Our First Kiss</a></h4>
+        <p>
+                      
+            <img src="assets/img/ourfirstkiss.png" alt="Our first kiss start screen" class="wide-img">
+            <br>
+            <span>I was the primary programmer on <span class="keyword">Our First Kiss</span>, another students' Masters Thesis project (using <span class="lowercase-keyword">Unity/C#</span>). It's a festival (or at-home) game about a first kiss at the movies. I programmed the kissing mechanic, the color saturation and music/film clip changes, the keyboard controls remapping, the accessories selection, the ending, and I debugged the movement code.</span>
+        </p>
+        <br>
+        <br>
+        <h3>Small Projects:</h3>
+        <h4 class="project-links"><a href="https://lsyu.itch.io/color-combine">Color Combine</a></h4>
+        <p>
+            <img src="assets/img/colorcombine.png" alt="Color combine image" class="square-img">
+            <br>
+            <span>I made this alone in a few hours in <span class="lowercase-keyword">Unity</span>, it was inspired by the Home Depot color sample section.</span>
+        </p>
+        <h4 class="project-links"><a href="https://lsyu.itch.io/good-night-egg">Good Night, Egg</a></h4>
+        <p>
+            <img src="assets/img/goodnightegg.png" alt="Good Night Egge image" class="square-img">
+            <br>
+            <span>A 2D simulator of a genderqueer teen checking their phone before bedtime. This was my first <span class="lowercase-keyword">Unity</span> game that I made alone as an optional class project.</span>
+        </p>
+        <br>
+        </span>
+    </body>
+</html>
